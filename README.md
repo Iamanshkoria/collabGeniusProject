@@ -46,7 +46,7 @@ Contributing
 
 
 
-This version provides clearer instructions and better formatting. Make sure to replace `"iamanshkoria"` with your actual GitHub username before using it.
+This version provides clearer instructions and better formatting.`"iamanshkoria"` with your actual GitHub username before using it.
 
 
 
