@@ -1,0 +1,326 @@
+/* Icon colors */
+.nav-link .bi {
+  color: #6c757d; /* Default color for icons */
+}
+
+/* Custom color for specific icons */
+.nav-link .bi-house-door-fill {
+  color: #007bff; /* Blue */
+}
+
+.nav-link .bi-search {
+  color: #28a745; /* Green */
+}
+
+.nav-link .bi-trophy {
+  color: gold; /* Gold */
+}
+
+.nav-link .bi-info-circle {
+  color: #17a2b8; /* Cyan */
+}
+
+.nav-link .bi-telephone-fill {
+  color: #dc3545; /* Red */
+}
+
+/* Navbar styling */
+.magic-navbar {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.magic-navbar-brand {
+  font-size: 1.5rem;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  margin-left: 20px;
+  transition: color 0.3s ease;
+}
+
+.magic-navbar-brand:hover {
+  color: #fed136; /* Change color on hover */
+}
+
+.magic-navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+.magic-navbar-nav .nav-link {
+  color: #fff;
+  padding: 0.5rem 1rem;
+  margin: 0 5px;
+  transition: all 0.3s ease;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.magic-navbar-nav .nav-link::before {
+  content: '';
+  position: absolute;
+  top: calc(100% + 2px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  transition: width 0.3s ease;
+}
+
+.magic-navbar-nav .nav-link:hover::before {
+  width: 100%;
+}
+
+/* Container styling */
+.container {
+  margin-top: 20px;
+  background: linear-gradient(to bottom right, #f2f2f2, #ddd);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.container h1 {
+  font-size: 2.5rem;
+  color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+/* Button styling */
+.btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none; /* Remove default outline */
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+  color: #fff;
+}
+
+.btn-secondary:hover {
+  background-color: #495057;
+  border-color: #495057;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+}
+
+/* Hover effect for links */
+a:hover {
+  text-decoration: none;
+}
+
+/* Hover effect for container */
+.container:hover {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover effect for buttons */
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+/* Grid layout */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fadeIn {
+  animation: fadeIn 0.5s ease forwards;
+}
+
+/* Smooth scroll effect for anchor links */
+.scroll {
+  scroll-behavior: smooth;
+}
+/* Hover effect for links */
+.nav-link:hover::before {
+  width: 100%;
+  background-color: red; /* Change the hover underline color to red */
+}
+
+/* User-friendly form styling */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+  border-color: #007bff;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 576px) {
+  .magic-navbar-brand {
+    font-size: 1.2rem;
+    margin-left: 10px;
+  }
+
+  .magic-navbar-nav .nav-link {
+    padding: 0.5rem 0.75rem;
+    margin: 0 3px;
+  }
+
+  .container {
+    padding: 15px;
+  }
+
+  .btn {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
+
+/* Dropdown menu styling */
+.dropdown-menu {
+  background-color: #343a40; /* Dark background color */
+  border: none; /* Remove default border */
+  border-radius: 0; /* Remove border radius */
+  padding: 0; /* Remove default padding */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+.dropdown-item {
+  color: #fff; /* Text color */
+  padding: 10px 20px; /* Add padding */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  background-color: #007bff; /* Change background color on hover/focus */
+}
+
+.dropdown-divider {
+  background-color: #6c757d; /* Divider color */
+  margin: 0; /* Remove default margin */
+}
+
+/* Additional styling for nested dropdowns */
+.dropdown-menu .dropdown-menu {
+  background-color: #2c3e50; /* Darker background color for nested dropdowns */
+  border: none; /* Remove default border */
+}
+
+.dropdown-menu .dropdown-item {
+  padding-left: 40px; /* Add left padding for nested items */
+}
+/* Navbar styling */
+.navbar {
+  background-color: #343a40; /* Dark background color */
+}
+
+.navbar-brand {
+  color: #fff; /* Navbar brand text color */
+}
+
+.navbar-nav .nav-link {
+  color: #fff; /* Navbar link text color */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff; /* Navbar link text color on hover */
+}
+
+/* Custom scrollbar for dropdown menus */
+.dropdown-menu {
+  scrollbar-width: thin;
+  scrollbar-color: #007bff #343a40; /* Scrollbar color */
+}
+
+/* Button styling */
+.btn-primary {
+  background-color: #007bff; /* Primary button background color */
+  border-color: #007bff; /* Primary button border color */
+  color: #fff; /* Primary button text color */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Primary button background color on hover */
+  border-color: #0056b3; /* Primary button border color on hover */
+}
+
+.btn-secondary {
+  background-color: #6c757d; /* Secondary button background color */
+  border-color: #6c757d; /* Secondary button border color */
+  color: #fff; /* Secondary button text color */
+}
+
+.btn-secondary:hover {
+  background-color: #495057; /* Secondary button background color on hover */
+  border-color: #495057; /* Secondary button border color on hover */
+}
+
+/* General page styling */
+body {
+  background-color: #f8f9fa; /* Page background color */
+  color: #212529; /* Default text color */
+}
+
+.container {
+  margin-top: 20px; /* Top margin for container */
+  background-color: #fff; /* Container background color */
+  border-radius: 10px; /* Container border radius */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Container box shadow */
+  padding: 20px; /* Container padding */
+}
+
+.container h1 {
+  font-size: 2.5rem; /* Heading font size */
+  color: #333; /* Heading text color */
+}
+
+.container p {
+  font-size: 1.2rem; /* Paragraph font size */
+  color: #666; /* Paragraph text color */
+}

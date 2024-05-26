@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            padding: 20px;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .user-info {
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 15px;
+        }
+
+        .user-info h2 {
+            color: #4e54c8;
+            margin-bottom: 5px;
+        }
+
+        .user-info p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Member Information</h1>
+
+        <div class="user-info">
+            <h2>Member-4</h2>
+            <p><strong>Name:</strong> Chocha Ronak</p>
+            <p><strong>Address:</strong>Rajkot</p>
+            <p><strong>Email:</strong> ronakahir1@gmail.com</p>
+            <p><strong>Contact No:</strong>9016321238</p>
+            <p><strong>Company Name:</strong>CollabGenius</p>
+            <p><strong>Company Email:</strong>CollabGenius1@gmail.com</p>
+            <p><strong>Department:</strong> Computer</p>
+            <p><strong>College:</strong>Goverment Polytechnic Porbandar</p>
+            
+        </div>
+
+        
+    </div>
+</body>
+
+</html>
+
