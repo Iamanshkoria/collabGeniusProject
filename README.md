@@ -22,7 +22,7 @@ CollabGenius is a collaborative platform for generating and sharing innovative i
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/collabgenius.git
+   git clone https://github.com/iamanshkoria/collabgenius.git
 
    
   2. **Database Configuration:**
