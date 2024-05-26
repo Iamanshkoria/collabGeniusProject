@@ -15,8 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if ($result->num_rows == 1) {
         $row = $result->fetch_assoc();
-        if (($username === 'Ravi Kodiyatar' || $username === 'Jatin Kargathiya' || 
-            $username === 'Ansh Koriya' || $username === 'Ronak Chocha') && $password === '1') {
+        if ($username === 'Ansh Koriya' && $password === '1') {
            
             $_SESSION['username'] = $username;
             $_SESSION['user_id'] = $row['id'];
