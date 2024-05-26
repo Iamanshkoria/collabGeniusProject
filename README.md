@@ -20,27 +20,22 @@ CollabGenius is a collaborative platform for generating and sharing innovative i
 
 ## Setup
 
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/iamanshkoria/collabgenius.git
-
-
-2. Database Setup:
+1. Database Setup:
 
 
 Open your MySQL database management tool.
 Locate and open the CollabGenius(2).sql file located in the database directory.
 Copy the SQL queries from the file and execute them in your MySQL database management tool to create the necessary database tables.
 
-3. Database Configuration:
+2. Database Configuration:
 
 Update the db.php file with your MySQL database credentials to allow your PHP scripts to connect to the database.
 
 
-4. Run the Application: The steps for running the application are not clear. You may want to provide more detailed instructions, such as deploying to a specific web server and accessing the application URL.
+3. Run the Application: The steps for running the application are not clear. You may want to provide more detailed instructions, such as deploying to a specific web server and accessing the application URL.
 
 
-5. Contributing: The contributing section is good, but make sure to format the commands properly and provide a brief explanation for each step.
+4. Contributing: The contributing section is good, but make sure to format the commands properly and provide a brief explanation for each step.
 
 Contributing
 1. Fork the repository.
