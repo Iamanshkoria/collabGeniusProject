@@ -27,6 +27,9 @@ CollabGenius is a collaborative platform for generating and sharing innovative i
 
 2. Database Setup:
 
+cd database
+mysql -u root -p  < CollabGenius(2).sql
+
 Open the schema.sql file located in the database directory.
 Copy the SQL queries and execute them in your MySQL database management tool to create the database tables.
 Optionally, open the data.sql file and execute the INSERT statements to populate the tables with sample data.
